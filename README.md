@@ -17,9 +17,9 @@ As a result our tool generates a .xlsx (Excel) file that needs to be loaded to t
 
  #### 🛠 Manual setup:
  
-  * [NodeJS](https://nodejs.org/en/) 16 or higher.
-  * Install <strong>PNPM</strong> globally: `npm i -g pnpm`
-  * Clone repo: `git clone https://github.com/vladIsLove-hub/pleasure-tool.git`;
+  * Install [NodeJS](https://nodejs.org/en/) 16 or higher.
+  * Install <strong>PNPM</strong> globally: `npm i -g pnpm`.
+  * Clone repo: `git clone https://github.com/vladIsLove-hub/pleasure-tool.git`.
   * Run `pnpm i` from the root.
  
 ## How to use it:
@@ -49,12 +49,12 @@ Let's start with `pleasure.config.json`. It's the main file where tasks of your 
 
 | Value                                | Type       | Description                                                                                                            |
 | ------------------------------------ | ---------- | ---------------------------------------------------------------------------------------------------------------------- |
-| projectTypes                         | `object`   | Object that collects all your project types that based on types from Akvelon ETS)                                      |
+| projectTypes                         | `object`   | Object that collects all your project types which are based on types from Akvelon ETS                                      |
 | key                                  | `string`   | Your project taskname (For example: `PBI Desktop, Build and Accessibility.Development`)                                |
 | max_value                            | `number`   | The maximum time that will be spent to complete the task (you can specify your default time here by yourself)          |
-| [first_keyword, second_keyword, ...] | `string[]` | Non-empty array of keywords which match specific project taskname.                                                     |
+| [first_keyword, second_keyword, ...] | `string[]` | Non-empty array of keywords which match specific project taskname                                                     |
 | times                                | `object`   | Object that collects your default time value (we recommend leaving the field values the same as in the example above)|
-| totalWorkHoursPerDay                 | `number`   | Total work hours in the day. Must be non negative integer.                                                             |
+| totalWorkHoursPerDay                 | `number`   | Total work hours in the day. Must be non negative integer                                                             |
 | timeUnitInHours                      | `number`   | The minimal time unit that can be allocated to the task (dimension: hours)                                             |
 |                                      |
 
